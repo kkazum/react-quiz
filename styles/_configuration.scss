@@ -66,6 +66,14 @@ $breakpoint-max: (
   background-position: center;
 }
 
+@mixin resBgi($url) {
+  @include bgi;
+  background-image: url($url);
+  height: 0;
+  width: 100%;
+  padding-top: 53.1944444%;
+}
+
 @mixin flex {
   //毎回変える
   display: -webkit-flex;
