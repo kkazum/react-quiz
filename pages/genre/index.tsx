@@ -1,4 +1,5 @@
 import Header from '../../components/Header';
+import Link from 'next/link';
 
 export default function Genre() {
   return (
@@ -10,84 +11,32 @@ export default function Genre() {
             <h2>ジャンルを選択してください。</h2>
             <ul className="bl_genreList">
               <li className="bl_genreListItem">
-                <a href="">
-                  <p>ジャンル</p>
-                </a>
+                <Link href="/question/1">
+                  <a>
+                    <p>ジャンル</p>
+                  </a>
+                </Link>
               </li>
               <li className="bl_genreListItem">
-                <a href="">
-                  <p>ジャンル</p>
-                </a>
+                <Link href="/question/2">
+                  <a>
+                    <p>ジャンル</p>
+                  </a>
+                </Link>
               </li>
               <li className="bl_genreListItem">
-                <a href="">
-                  <p>ジャンル</p>
-                </a>
+                <Link href="/question/3">
+                  <a>
+                    <p>ジャンル</p>
+                  </a>
+                </Link>
               </li>
               <li className="bl_genreListItem">
-                <a href="">
-                  <p>ジャンル</p>
-                </a>
-              </li>
-              <li className="bl_genreListItem">
-                <a href="">
-                  <p>ジャンル</p>
-                </a>
-              </li>
-              <li className="bl_genreListItem">
-                <a href="">
-                  <p>ジャンル</p>
-                </a>
-              </li>
-              <li className="bl_genreListItem">
-                <a href="">
-                  <p>ジャンル</p>
-                </a>
-              </li>
-              <li className="bl_genreListItem">
-                <a href="">
-                  <p>ジャンル</p>
-                </a>
-              </li>
-              <li className="bl_genreListItem">
-                <a href="">
-                  <p>ジャンル</p>
-                </a>
-              </li>
-              <li className="bl_genreListItem">
-                <a href="">
-                  <p>ジャンル</p>
-                </a>
-              </li>
-              <li className="bl_genreListItem">
-                <a href="">
-                  <p>ジャンル</p>
-                </a>
-              </li>
-              <li className="bl_genreListItem">
-                <a href="">
-                  <p>ジャンル</p>
-                </a>
-              </li>
-              <li className="bl_genreListItem">
-                <a href="">
-                  <p>ジャンル</p>
-                </a>
-              </li>
-              <li className="bl_genreListItem">
-                <a href="">
-                  <p>ジャンル</p>
-                </a>
-              </li>
-              <li className="bl_genreListItem">
-                <a href="">
-                  <p>ジャンル</p>
-                </a>
-              </li>
-              <li className="bl_genreListItem">
-                <a href="">
-                  <p>ジャンル</p>
-                </a>
+                <Link href="/question/4">
+                  <a>
+                    <p>ジャンル</p>
+                  </a>
+                </Link>
               </li>
             </ul>
           </div>
