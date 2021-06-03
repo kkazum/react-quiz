@@ -1,16 +1,18 @@
-import styles from '../styles/Home.module.scss';
 import Header from '../components/Header';
+import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Header />
       <main className="ly_main">
         <section className="ly_front">
           <div className="ly_frontInner">
-            <h1></h1>
-            <p></p>
-            <button></button>
+            <h1>Web Quiz</h1>
+            <p>Webでいつでもクイズができるサイトです。</p>
+            <Link href="/genre">
+              <a>START</a>
+            </Link>
           </div>
         </section>
       </main>

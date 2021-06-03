@@ -1,9 +1,8 @@
 import Header from '../../components/Header';
-import styles from '../styles/Home.module.scss';
 
-export default function Home() {
+export default function Genre() {
   return (
-    <div className={styles.container}>
+    <div>
       <Header />
       <main className="ly_main">
         <section className="ly_genre">
